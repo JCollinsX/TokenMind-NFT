@@ -60,3 +60,17 @@ module.exports = {
 ```
 
 If using Infura, update __.infuraid__ with your [Infura](https://infura.io/) project ID.
+
+
+## Deployed Contract address
+
+### Rinkeby Testnet
+NFT token Contract
+```sh
+https://rinkeby.etherscan.io/address/0xAb88A6dbB32C49a303cdAe0dcDE1B37A69b7E9C9
+```
+
+NFT marketplace Contract
+```sh
+https://rinkeby.etherscan.io/address/0x2396Ba8C4CF9F00b0F5C82f85E7bA2fBeF1b6Fca
+```

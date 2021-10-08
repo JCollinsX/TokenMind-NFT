@@ -1,7 +1,9 @@
 require("@nomiclabs/hardhat-waffle");
+require("@nomiclabs/hardhat-etherscan");
 const fs = require('fs');
 const privateKey = fs.readFileSync(".secret").toString().trim() || "01234567890123456789";
 const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
+const etherscanApiKey = fs.readFileSync(".etherscan").toString().trim() || "";
 
 module.exports = {
   defaultNetwork: "hardhat",
@@ -25,6 +27,9 @@ module.exports = {
       url: "https://rpc-mainnet.maticvigil.com",
       accounts: [privateKey]
     }
+  },
+  etherscan: {
+    apiKey: etherscanApiKey
   },
   solidity: {
     version: "0.8.4",

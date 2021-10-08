@@ -2,6 +2,7 @@
 
 .secret
 .infuraid
+.etherscan
 config.js
 
 # dependencies
