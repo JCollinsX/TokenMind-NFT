@@ -74,3 +74,14 @@ NFT marketplace Contract
 ```sh
 https://rinkeby.etherscan.io/address/0x2396Ba8C4CF9F00b0F5C82f85E7bA2fBeF1b6Fca
 ```
+
+### Ropsten Testnet
+
+NFT token Contract
+```sh
+https://ropsten.etherscan.io/address/0xE6a79C34D5b10a2601EeC9C00EaDB441ed287230#code
+```
+
+NFT marketplace Contract
+```sh
+https://ropsten.etherscan.io/address/0xE27E5148a328e7614a1836e6E4CA7a9efC95ECA9#code

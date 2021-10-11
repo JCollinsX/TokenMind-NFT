@@ -15,6 +15,10 @@ module.exports = {
       url: `https://rinkeby.infura.io/v3/${infuraId}`,
       accounts: [privateKey]
     },
+    ropsten: {
+      url: `https://ropsten.infura.io/v3/${infuraId}`,
+      accounts: [privateKey]
+    },
     mumbai: {
       // Infura
       // url: `https://polygon-mumbai.infura.io/v3/${infuraId}`
